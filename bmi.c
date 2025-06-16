@@ -8,8 +8,19 @@ int main()
     
     printf("Ingrese su peso en kilogramos: ");
     scanf("%f", &peso);
+
+    while(peso < 0){
+        printf("Por favor ingrese un peso válido: ");
+        scanf("%f", &peso);
+    }
+
     printf("Ingrese su altura en metros: ");
     scanf("%f", &altura);
+
+    while(altura < 0){
+        printf("Por favor ingrese una altura válida: ");
+        scanf("%f", &altura);
+    }
     
     imc = peso / (altura * altura);
     
