@@ -1,3 +1,6 @@
+/*Agustin Sagripantti 1R5
+https://github.com/AgustinSagripantti/TP3-Informatica*/
+
 #include <stdio.h>
 #include <math.h>
 #define PI 3.14159265359
